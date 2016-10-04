@@ -1,0 +1,85 @@
+<html ng-app="myCv">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+</head>
+
+<body ng-controller='cvCtrl'>
+  <!--<div class="col-md-6 col-md-offset-6">-->
+  <div class="row">
+</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="title text-center">
+          <span class="mrRobot">Thalles<br/>
+            Manjaterra</span>
+            <div class="dados">
+              age<span class="detalhe">:</span><span class="string">"23 years old (1<sup>st</sup> October 1992)"</span>,<br/>
+              address<span class="detalhe">:</span><span class="string">"144 Itororó ST - Jd.Aurora - Mogi Mirim/SP"</span>,</br>
+              zipCode<span class="detalhe">:</span><span class="number">13.806-020</span>;
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="barra">
+        <ul>
+          <li>
+            <i class="fa fa-arrow-circle-right"></i>
+          </li>
+          <li>
+            <a href=""> thalles.manjaterra@gmail.com</a>
+          </li>
+          <li>
+            (19)3806-7563/3862-2411
+          </li>
+          <li>
+            (19)9 9552-3058
+          </li>
+        </ul>
+      </div>
+
+<div class="container">
+      <div class="row">
+        <div class="containerLinks">
+
+          <div class="checkout" ng-repeat="imagem in imagens" >
+
+              <a href="{{imagem.url}}"><img class="img-responsive" ng-src="img/{{imagem.src}}"></img></a>
+
+          </div>
+        </div>
+      </div>
+
+   <div class="row">
+      <div class="objetivo">
+        <div class="col-xs-2">
+        <img class="img-target" src="img/target.png" />
+      </div>
+        <div class="col-xs-8 objText">
+          <span class="grifado">Objective:</span> Intership in Web Devolepment
+        </div>
+      </div>
+    </div>
+      <div class="row">
+      <div class="idiomas">
+          <span class="grifado beng">Languages:</span></br>
+          <div class="delicado">
+           <i class="fa fa-caret-right"></i>Portuguese(Native)<img class="flag" src="img/flag.png" /><img class="level" src="img/level3.png" />
+          <span class="ingles">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>English<img class="flag2" src="img/flag2.png" /><img class="level2" src="img/level.png" /></span>
+          </div>
+      </div>
+    </span>
+  </div>
+      </div>
+
+
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="main.js"></script>
+    </body>
+    </html>

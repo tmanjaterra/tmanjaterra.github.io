@@ -1,0 +1,246 @@
+@font-face {
+  font-family: mrRobot;
+  src: url(./fonts/mrRobot.ttf);
+}
+@font-face {
+  font-family: beng;
+  src: url(./fonts/beng.ttf);
+}
+@font-face {
+  font-family:mono;
+  src: url(./fonts/mono.ttf);
+}
+@font-face {
+  font-family:josefin;
+  src: url(./fonts/josefin.ttf);
+}
+.beng{
+  font-family: beng;
+}
+.grifado{
+  background: #ffff00;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.mrRobot{
+  line-height: normal;
+  font-family: mrRobot;
+  color:#B80008;
+}
+.title {
+  padding-left:3px;
+  padding-bottom: 5px;
+  margin-left: -15px;
+  margin-right: -15px;
+  font-size: 3.2em;
+  padding-top: 17px;
+  text-align: center;
+  background: #0A0A0A;
+  margin-bottom: 3px;
+}
+.barra {
+  font-family: josefin;
+  font-size: 0.82em;
+  width: 120%;
+  height: 1.3em;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  bottom:0;
+  margin-left: -51px;
+}
+.barra ul{
+  margin-left:10px;
+}
+
+.barra ul li{
+  display: inline-block;
+}
+.barra ul li a{
+  text-decoration: none;
+  color:white;
+}
+.barra ul li a:hover{
+  color:#60CDE2;
+}
+.number{
+  color:#AE81FF;
+}
+.string{
+  color:#E6DB74;
+}
+.detalhe{
+  color:#F92672;
+}
+.dados{
+  text-align: center;
+  font-size:12px;
+  font-family:mono;
+  color:white;
+  word-spacing:-3px;
+}
+.containerLinks{
+  text-align: center;
+  clear:right;
+}
+.checkout{
+  margin-left:3px;
+  float: left;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.objetivo{
+margin-top: 5px;
+color: black;
+font-family:beng;
+}
+.img-target{
+  margin-top: 5px;
+}
+.objText{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.idiomas{
+margin-top: 10px;
+color: black;
+}
+.flag{
+  margin-top: -35px;
+}
+.level{
+  margin-top: -25px;
+  margin-left: -2px;
+}
+.level2{
+  margin-left: -2px;
+  margin-top: -30px;
+}
+.flag2{
+  margin-top: -38px;
+}
+.delicado{
+  margin-top: 5px;
+  margin-left: -10px;
+  font-size: 10.8px;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout img{
+    width: 100px;
+  }
+  .objetivo img{
+    width: 100px;
+  }
+  .idiomas img{
+    width: 50px;
+  }
+}
+/*
+Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
+*/
+@media screen and (min-width: 768px) {
+  .title{
+    font-size: 8em;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .barra{
+    width:100%;
+    font-size: 1.2em;
+    margin-left:-15px;
+    padding-left: -5px;
+  }
+  .barra ul{
+    margin-left: 150px
+  }
+  .dados{
+    font-size:30px;
+    word-spacing:0px;
+    line-height: 1.1em;
+  }
+  .containerLinks{
+    margin-left:160px;
+    margin-top: 15px;
+    clear:right;
+  }
+  .checkout{
+    padding-left: 5px;
+    float: left;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
+
+  .objetivo{
+    font-size: 30px;
+  }
+}
+
+
+/*
+Com uma largura mínima de 992 pixels. Monitores por exemplo.
+*/
+@media screen and (min-width: 992px) {
+  .title {
+    text-align: center;
+    font-size: 8.5em;
+    padding-top: 40px;
+    padding-bottom: 15px;
+  }
+  .barra {
+    width:100%;
+    height: 1.2em;
+    font-size: 1.8em;
+    margin-left: -15px;
+    padding-left: 50px;
+  }
+  .barra ul{
+    margin-left: 180px;
+  }
+  .barra ul li{
+    padding-left: 5px;
+  }
+  .dados {
+    text-align: center;
+    font-size: 30px;
+    word-spacing:-7px;
+    line-height: 1.1em;
+  }
+  .containerLinks{
+    margin-left: 376px;
+    margin-top: 15px;
+    clear:right;
+  }
+  .checkout{
+    float: left;
+    margin-left: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
+  .checkout img{
+    transition: 450ms;
+    max-width: 100%;
+    height: auto;
+  }
+  .checkout img:hover{
+    transition: 450ms;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .objetivo{
+  font-size: 30px;
+}
+/*
+Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
+
+@media screen and (min-width: 1200px) {
+.titulo {font-size: 5em;}
+*/
