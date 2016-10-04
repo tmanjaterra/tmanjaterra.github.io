@@ -50,7 +50,7 @@
   color: white;
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
-  bottom:0;
+  top:0;
   margin-left: -51px;
 }
 .barra ul{
@@ -84,6 +84,7 @@
   word-spacing:-3px;
 }
 .containerLinks{
+  margin-left: 6.5px;
   text-align: center;
   clear:right;
 }
@@ -98,6 +99,7 @@
 margin-top: 5px;
 color: black;
 font-family:beng;
+font-size: 15px;
 }
 .img-target{
   margin-top: 5px;
@@ -109,6 +111,7 @@ font-family:beng;
 .idiomas{
 margin-top: 10px;
 color: black;
+font-family: josefin;
 }
 .flag{
   margin-top: -35px;
@@ -126,9 +129,10 @@ color: black;
   margin-top: -38px;
 }
 .delicado{
+
   margin-top: 5px;
   margin-left: -10px;
-  font-size: 10.8px;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 768px) {
