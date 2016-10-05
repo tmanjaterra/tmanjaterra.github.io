@@ -16,9 +16,13 @@
 }
 .beng{
   font-family: beng;
+  color: black;
 }
 .grifado{
   background: #ffff00;
+}
+.negrito{
+  font-weight: bold;
 }
 .img-responsive {
   display: block;
@@ -133,6 +137,59 @@ font-family: josefin;
   margin-top: 5px;
   margin-left: -10px;
   font-size: 13px;
+}
+.education{
+  margin-left: -13px;
+  margin-top: 10px;
+  color: black;
+}
+.education a{
+  color: black;
+  text-decoration: none;
+}
+.education a:hover{
+color: rgba(0, 0, 0, 0.75);;
+}
+.painelInformationSystems{
+
+  margin-left: -12px;
+  margin-right:-25px;
+  background:rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+            margin-bottom: 15px;
+            font-family: josefin;
+              text-align:center;
+}
+
+.my-class {
+  color:white;
+  background:black;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+   -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+
+}
+.titulo{
+  margin-left: 83px;
+}
+.workExperience{
+  margin-top: 5px;
+  margin-left: -12px;
+  font-family: josefin;
+  text-align:justify;
+}
+.workExperience p:hover{
+  transition: 450ms;
+  background:rgba(0, 0, 0, 0.06);
+  color:black;
+        -webkit-box-shadow: 0 8px 6px -6px #C0000F;
+         -moz-box-shadow: 0 8px 6px -6px #C0000F;
+              box-shadow: 0 8px 6px -6px #C0000F;
+              -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+              transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
