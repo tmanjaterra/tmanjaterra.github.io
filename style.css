@@ -52,7 +52,7 @@
   margin-bottom: 3px;
 }
 .barra {
-  font-family: josefin;
+  font-family:josefin;
   font-size: 0.82em;
   width: 120%;
   height: 1.3em;
@@ -60,7 +60,7 @@
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
   top:0;
-  margin-left: -51px;
+  margin-left: -55px;
 }
 .barra ul{
   margin-left:10px;
@@ -193,6 +193,7 @@ color: rgba(0, 0, 0, 0.75);;
         -webkit-box-shadow: 0 8px 6px -6px #C0000F;
          -moz-box-shadow: 0 8px 6px -6px #C0000F;
               box-shadow: 0 8px 6px -6px #C0000F;
+              -moz-transform:scale(1.08);
               -webkit-transform: scale(1.08);
               -ms-transform: scale(1.08);
               transform: scale(1.08);
@@ -204,6 +205,10 @@ color: rgba(0, 0, 0, 0.75);;
   transition: 450ms;
   padding-left: 3px;
   padding-right: 3px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+   -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+
 }
 
 @media screen and (max-width: 768px) {
