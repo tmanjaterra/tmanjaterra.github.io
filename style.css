@@ -14,6 +14,9 @@
   font-family:josefin;
   src: url(./fonts/josefin.ttf);
 }
+.italico{
+  font-style: italic; 
+}
 .destaque{
   font-size: 15px;
 }
