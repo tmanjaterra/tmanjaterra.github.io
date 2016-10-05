@@ -16,13 +16,15 @@
 }
 .beng{
   font-family: beng;
-  color: black;
 }
 .grifado{
   background: #ffff00;
 }
 .negrito{
   font-weight: bold;
+}
+.preto{
+  color:black;
 }
 .img-responsive {
   display: block;
@@ -177,6 +179,7 @@ color: rgba(0, 0, 0, 0.75);;
 .workExperience{
   margin-top: 5px;
   margin-left: -12px;
+  margin-right: -12px;
   font-family: josefin;
   text-align:justify;
 }
@@ -191,7 +194,12 @@ color: rgba(0, 0, 0, 0.75);;
               -ms-transform: scale(1.1);
               transform: scale(1.1);
 }
-
+.first{
+  margin-top: 3px;
+}
+.workExperience p{
+  margin-bottom: 8px;
+}
 @media screen and (max-width: 768px) {
   .checkout img{
     width: 100px;
