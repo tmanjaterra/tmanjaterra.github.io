@@ -15,7 +15,7 @@
   src: url(./fonts/josefin.ttf);
 }
 .italico{
-  font-style: italic; 
+  font-style: italic;
 }
 .destaque{
   font-size: 15px;
@@ -63,9 +63,10 @@
   background: rgba(0, 0, 0, 0.6);
   position: fixed;
   top:0;
-  margin-left: -60px;
+  margin-left: -80px;
 }
 .barra ul{
+  text-align: center;
   margin-left:10px;
 }
 
@@ -118,7 +119,7 @@ font-size: 15px;
 }
 .objText{
   margin-left: 40px;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 .idiomas{
 margin-top: 10px;
@@ -208,9 +209,6 @@ color: rgba(0, 0, 0, 0.75);;
   transition: 450ms;
   padding-left: 3px;
   padding-right: 3px;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-   -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
 
 }
 
