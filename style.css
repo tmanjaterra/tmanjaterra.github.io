@@ -14,6 +14,9 @@
   font-family:josefin;
   src: url(./fonts/josefin.ttf);
 }
+.destaque{
+  font-size: 15px;
+}
 .beng{
   font-family: beng;
 }
@@ -141,6 +144,7 @@ font-family: josefin;
   font-size: 13px;
 }
 .education{
+  font-size:15px;
   margin-left: -13px;
   margin-top: 10px;
   color: black;
@@ -190,16 +194,19 @@ color: rgba(0, 0, 0, 0.75);;
         -webkit-box-shadow: 0 8px 6px -6px #C0000F;
          -moz-box-shadow: 0 8px 6px -6px #C0000F;
               box-shadow: 0 8px 6px -6px #C0000F;
-              -webkit-transform: scale(1.1);
-              -ms-transform: scale(1.1);
-              transform: scale(1.1);
+              -webkit-transform: scale(1.08);
+              -ms-transform: scale(1.08);
+              transform: scale(1.08);
 }
 .first{
   margin-top: 3px;
 }
 .workExperience p{
-  margin-bottom: 9px;
+  transition: 450ms;
+  padding-left: 3px;
+  padding-right: 3px;
 }
+
 @media screen and (max-width: 768px) {
   .checkout img{
     width: 100px;
